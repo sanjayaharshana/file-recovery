@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/file_recovery.dir/main.cpp.o CMakeFiles/file_recovery.dir/carver.cpp.o CMakeFiles/file_recovery.dir/fat_undelete.cpp.o -o file_recovery

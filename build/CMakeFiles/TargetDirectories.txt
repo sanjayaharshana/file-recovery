@@ -1,0 +1,6 @@
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery.dir
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui.dir
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir
+/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui_autogen.dir
