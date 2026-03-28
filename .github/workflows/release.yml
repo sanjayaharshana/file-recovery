@@ -15,7 +15,7 @@ permissions:
 
 env:
   QT_VERSION: "6.8.*"
-  CMAKE_VERSION: "4.2.0"
+  CMAKE_VERSION: "4.3.0"
 
 jobs:
   build-windows:
@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: lukka/get-cmake@v4
+      - uses: lukka/get-cmake@v4.3.0
         with:
           cmakeVersion: ${{ env.CMAKE_VERSION }}
           ninjaVersion: latest
@@ -66,7 +66,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: lukka/get-cmake@v4
+      - uses: lukka/get-cmake@v4.3.0
         with:
           cmakeVersion: ${{ env.CMAKE_VERSION }}
           ninjaVersion: latest
@@ -114,7 +114,7 @@ jobs:
             libegl1 \
             file
 
-      - uses: lukka/get-cmake@v4
+      - uses: lukka/get-cmake@v4.3.0
         with:
           cmakeVersion: ${{ env.CMAKE_VERSION }}
           ninjaVersion: latest
