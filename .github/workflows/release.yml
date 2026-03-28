@@ -38,7 +38,6 @@ jobs:
           host: windows
           target: desktop
           arch: win64_msvc2022_64
-          modules: qtbase
 
       - name: Configure & build
         run: |
@@ -77,7 +76,6 @@ jobs:
           host: mac
           target: desktop
           arch: clang_64
-          modules: qtbase
 
       - name: Configure & build
         run: |
@@ -125,7 +123,6 @@ jobs:
           host: linux
           target: desktop
           arch: gcc_64
-          modules: qtbase
 
       - name: Configure & build
         run: |
