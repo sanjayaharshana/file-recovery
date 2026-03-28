@@ -1,0 +1,7 @@
+# CMake — never commit local configure/cache (breaks CI on other machines)
+build/
+build-gui/
+cmake-build-*/
+out/
+
+.DS_Store

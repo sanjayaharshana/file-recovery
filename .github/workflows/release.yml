@@ -23,6 +23,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Remove committed CMake build trees (stale absolute paths)
+        shell: bash
+        run: rm -rf build build-gui cmake-build-debug
+
       - uses: lukka/get-cmake@v4.3.0
         with:
           cmakeVersion: ${{ env.CMAKE_VERSION }}
@@ -65,6 +69,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Remove committed CMake build trees (stale absolute paths)
+        shell: bash
+        run: rm -rf build build-gui cmake-build-debug
+
       - uses: lukka/get-cmake@v4.3.0
         with:
           cmakeVersion: ${{ env.CMAKE_VERSION }}
@@ -99,6 +107,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+
+      - name: Remove committed CMake build trees (stale absolute paths)
+        run: rm -rf build build-gui cmake-build-debug
 
       - name: Install dependencies
         run: |
