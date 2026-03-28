@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp" "CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o.d"
-  "/Users/mac/Documents/Projects/file-recovery/gui/app_style.cpp" "CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o.d"
-  "/Users/mac/Documents/Projects/file-recovery/gui/main.cpp" "CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o.d"
-  "/Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp" "CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp" "CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/gui/app_style.cpp" "CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/gui/main.cpp" "CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp" "CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o" "gcc" "CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

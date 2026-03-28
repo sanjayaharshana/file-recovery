@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-recovery
+CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-req/file-recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-recovery/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-req/file-recovery/build
 
 # Utility rule file for file_recovery_gui_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/file_recovery_gui_autogen: file_recovery_gui_autogen/timestamp
 
 file_recovery_gui_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/moc
 file_recovery_gui_autogen/timestamp: CMakeFiles/file_recovery_gui_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target file_recovery_gui"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui_autogen.dir/AutogenInfo.json ""
-	/opt/homebrew/bin/cmake -E touch /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target file_recovery_gui"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles/file_recovery_gui_autogen.dir/AutogenInfo.json Release
+	/opt/homebrew/bin/cmake -E touch /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/timestamp
 
 CMakeFiles/file_recovery_gui_autogen.dir/codegen:
 .PHONY : CMakeFiles/file_recovery_gui_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/file_recovery_gui_autogen.dir/clean:
 .PHONY : CMakeFiles/file_recovery_gui_autogen.dir/clean
 
 CMakeFiles/file_recovery_gui_autogen.dir/depend:
-	cd /Users/mac/Documents/Projects/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui_autogen.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui_autogen
+	cd /Users/mac/Documents/Projects/file-req/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles/file_recovery_gui_autogen.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui_autogen
 .PHONY : CMakeFiles/file_recovery_gui_autogen.dir/depend
 

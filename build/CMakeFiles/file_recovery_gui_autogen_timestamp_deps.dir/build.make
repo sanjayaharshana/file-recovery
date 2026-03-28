@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-recovery
+CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-req/file-recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-recovery/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-req/file-recovery/build
 
 # Utility rule file for file_recovery_gui_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/depend:
-	cd /Users/mac/Documents/Projects/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui_autogen_timestamp_deps
+	cd /Users/mac/Documents/Projects/file-req/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui_autogen_timestamp_deps
 .PHONY : CMakeFiles/file_recovery_gui_autogen_timestamp_deps.dir/depend
 

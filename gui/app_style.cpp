@@ -123,6 +123,23 @@ QPushButton#browseBtn:hover {
 QPushButton#browseBtn:pressed {
     background-color: #1e222e;
 }
+QPushButton#guideBtn {
+    background-color: #252a38;
+    color: #e4e7ef;
+    border: 1px solid #3d4458;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    min-height: 20px;
+}
+QPushButton#guideBtn:hover {
+    background-color: #2f3548;
+    border-color: #5a6278;
+}
+QPushButton#guideBtn:pressed {
+    background-color: #1e222e;
+}
 QPushButton#runBtn {
     background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
         stop:0 #2a9d78, stop:1 #1d7a5c);

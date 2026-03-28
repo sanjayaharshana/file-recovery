@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-recovery
+CMAKE_SOURCE_DIR = /Users/mac/Documents/Projects/file-req/file-recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-recovery/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/Projects/file-req/file-recovery/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/file_recovery_gui.dir/depend.make
@@ -75,58 +75,58 @@ CMakeFiles/file_recovery_gui.dir/codegen:
 CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o: CMakeFiles/file_recovery_gui.dir/flags.make
 CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o: file_recovery_gui_autogen/mocs_compilation.cpp
 CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o: CMakeFiles/file_recovery_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o -c /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.o -c /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp
 
 CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp > CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp > CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp -o CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/mocs_compilation.cpp -o CMakeFiles/file_recovery_gui.dir/file_recovery_gui_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o: CMakeFiles/file_recovery_gui.dir/flags.make
-CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o: /Users/mac/Documents/Projects/file-recovery/gui/main.cpp
+CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o: /Users/mac/Documents/Projects/file-req/file-recovery/gui/main.cpp
 CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o: CMakeFiles/file_recovery_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o -c /Users/mac/Documents/Projects/file-recovery/gui/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/main.cpp.o -c /Users/mac/Documents/Projects/file-req/file-recovery/gui/main.cpp
 
 CMakeFiles/file_recovery_gui.dir/gui/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_recovery_gui.dir/gui/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-recovery/gui/main.cpp > CMakeFiles/file_recovery_gui.dir/gui/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-req/file-recovery/gui/main.cpp > CMakeFiles/file_recovery_gui.dir/gui/main.cpp.i
 
 CMakeFiles/file_recovery_gui.dir/gui/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_recovery_gui.dir/gui/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-recovery/gui/main.cpp -o CMakeFiles/file_recovery_gui.dir/gui/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-req/file-recovery/gui/main.cpp -o CMakeFiles/file_recovery_gui.dir/gui/main.cpp.s
 
 CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: CMakeFiles/file_recovery_gui.dir/flags.make
-CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp
+CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp
 CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: CMakeFiles/file_recovery_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o -c /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o -c /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp
 
 CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp > CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp > CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.i
 
 CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp -o CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp -o CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.s
 
 CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o: CMakeFiles/file_recovery_gui.dir/flags.make
-CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o: /Users/mac/Documents/Projects/file-recovery/gui/app_style.cpp
+CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o: /Users/mac/Documents/Projects/file-req/file-recovery/gui/app_style.cpp
 CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o: CMakeFiles/file_recovery_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o -c /Users/mac/Documents/Projects/file-recovery/gui/app_style.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o -MF CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o.d -o CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.o -c /Users/mac/Documents/Projects/file-req/file-recovery/gui/app_style.cpp
 
 CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-recovery/gui/app_style.cpp > CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/Projects/file-req/file-recovery/gui/app_style.cpp > CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.i
 
 CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-recovery/gui/app_style.cpp -o CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/Projects/file-req/file-recovery/gui/app_style.cpp -o CMakeFiles/file_recovery_gui.dir/gui/app_style.cpp.s
 
 # Object files for target file_recovery_gui
 file_recovery_gui_OBJECTS = \
@@ -147,10 +147,10 @@ file_recovery_gui.app/Contents/MacOS/file_recovery_gui: /opt/homebrew/opt/qt/lib
 file_recovery_gui.app/Contents/MacOS/file_recovery_gui: /opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui
 file_recovery_gui.app/Contents/MacOS/file_recovery_gui: /opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore
 file_recovery_gui.app/Contents/MacOS/file_recovery_gui: CMakeFiles/file_recovery_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/Documents/Projects/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable file_recovery_gui.app/Contents/MacOS/file_recovery_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable file_recovery_gui.app/Contents/MacOS/file_recovery_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_recovery_gui.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copy file_recovery next to GUI executable"
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/mac/Documents/Projects/file-recovery/build/file_recovery /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui.app/Contents/MacOS
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui.app/Contents/MacOS
 
 # Rule to build all files generated by this target.
 CMakeFiles/file_recovery_gui.dir/build: file_recovery_gui.app/Contents/MacOS/file_recovery_gui
@@ -161,6 +161,6 @@ CMakeFiles/file_recovery_gui.dir/clean:
 .PHONY : CMakeFiles/file_recovery_gui.dir/clean
 
 CMakeFiles/file_recovery_gui.dir/depend:
-	cd /Users/mac/Documents/Projects/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build /Users/mac/Documents/Projects/file-recovery/build/CMakeFiles/file_recovery_gui.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui
+	cd /Users/mac/Documents/Projects/file-req/file-recovery/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build /Users/mac/Documents/Projects/file-req/file-recovery/build/CMakeFiles/file_recovery_gui.dir/DependInfo.cmake "--color=$(COLOR)" file_recovery_gui
 .PHONY : CMakeFiles/file_recovery_gui.dir/depend
 

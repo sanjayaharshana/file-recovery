@@ -1,8 +1,10 @@
 #include "mainwindow.h"
 
+#include <QAbstractButton>
 #include <QApplication>
 #include <QCheckBox>
 #include <QComboBox>
+#include <QDesktopServices>
 #include <QDir>
 #include <QFileDialog>
 #include <QFileInfo>
@@ -18,6 +20,7 @@
 #include <QPushButton>
 #include <QSizePolicy>
 #include <QSpinBox>
+#include <QUrl>
 #include <QVBoxLayout>
 #include <QtGlobal>
 
@@ -28,6 +31,7 @@
 namespace {
 
 constexpr int kDefaultMaxChunk = 50 * 1024 * 1024;
+const QString kAppVersion = QStringLiteral("1.0.6");
 
 } // namespace
 
@@ -43,8 +47,10 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
     main_layout->setSpacing(8);
 
     auto* header = new QWidget(central);
-    auto* header_layout = new QVBoxLayout(header);
-    header_layout->setContentsMargins(0, 0, 0, 12);
+    auto* header_outer = new QHBoxLayout(header);
+    header_outer->setContentsMargins(0, 0, 0, 12);
+    header_outer->setSpacing(16);
+    auto* header_layout = new QVBoxLayout();
     header_layout->setSpacing(4);
     auto* title = new QLabel(QStringLiteral("File Recovery"), header);
     title->setObjectName(QStringLiteral("appTitle"));
@@ -55,6 +61,13 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
     subtitle->setWordWrap(true);
     header_layout->addWidget(title);
     header_layout->addWidget(subtitle);
+    header_outer->addLayout(header_layout, 1);
+    auto* guide_btn = new QPushButton(QStringLiteral("Guide / About"), header);
+    guide_btn->setObjectName(QStringLiteral("guideBtn"));
+    guide_btn->setCursor(Qt::PointingHandCursor);
+    guide_btn->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+    guide_btn->setMinimumHeight(36);
+    header_outer->addWidget(guide_btn, 0, Qt::AlignTop);
     main_layout->addWidget(header);
 
     auto* sep = new QFrame(central);
@@ -152,6 +165,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
             &MainWindow::onModeChanged);
     connect(input_btn, &QPushButton::clicked, this, &MainWindow::onBrowseInput);
     connect(out_btn, &QPushButton::clicked, this, &MainWindow::onBrowseOutput);
+    connect(guide_btn, &QPushButton::clicked, this, &MainWindow::onShowGuide);
     connect(run_btn_, &QPushButton::clicked, this, &MainWindow::onRun);
 
     onModeChanged(0);
@@ -237,6 +251,32 @@ void MainWindow::onBrowseOutput() {
         QFileDialog::ShowDirsOnly | dlg_opts);
     if (!path.isEmpty()) {
         output_edit_->setText(path);
+    }
+}
+
+void MainWindow::onShowGuide() {
+    raise();
+    activateWindow();
+
+    QMessageBox box(this);
+    box.setIcon(QMessageBox::Information);
+    box.setWindowTitle(QStringLiteral("About File Recovery"));
+    box.setText(
+        QStringLiteral("<p><b>Copyright (c) Sanjaya Senevirathne</b></p>"
+                       "<p>Version <b>%1</b> (Update)</p>"
+                       "<p><i>Note:</i> Search on YouTube for <b>Project with Sanju</b> "
+                       "(Sanju channel) for guides and videos about this project.</p>")
+            .arg(kAppVersion));
+    box.setTextFormat(Qt::RichText);
+    box.setTextInteractionFlags(Qt::TextBrowserInteraction);
+    QAbstractButton* const yt_btn =
+        box.addButton(QStringLiteral("Open YouTube search"), QMessageBox::ActionRole);
+    box.addButton(QMessageBox::Ok);
+    box.setDefaultButton(QMessageBox::Ok);
+    box.exec();
+    if (box.clickedButton() == yt_btn) {
+        QDesktopServices::openUrl(QUrl(QStringLiteral(
+            "https://www.youtube.com/results?search_query=Project+with+Sanju+file+recovery")));
     }
 }
 

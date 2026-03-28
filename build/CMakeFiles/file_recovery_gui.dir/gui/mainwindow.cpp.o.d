@@ -1,6 +1,6 @@
 CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
-  /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.cpp \
-  /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.h \
+  /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.cpp \
+  /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -299,7 +299,6 @@ CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
@@ -1218,6 +1217,8 @@ CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QProcess \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qprocess.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiodevice.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QAbstractButton \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1234,7 +1235,6 @@ CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QCheckBox \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qcheckbox.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
@@ -1249,6 +1249,8 @@ CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qrubberband.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qframe.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QDesktopServices \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qdesktopservices.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QDir \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdir.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdirlisting.h \
@@ -1334,6 +1336,7 @@ CMakeFiles/file_recovery_gui.dir/gui/mainwindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSizePolicy \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qspinbox.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QUrl \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QtGlobal \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QEventLoop

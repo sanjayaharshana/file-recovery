@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mac/Documents/Projects/file-recovery/carver.cpp" "CMakeFiles/file_recovery.dir/carver.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/carver.cpp.o.d"
-  "/Users/mac/Documents/Projects/file-recovery/fat_undelete.cpp" "CMakeFiles/file_recovery.dir/fat_undelete.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/fat_undelete.cpp.o.d"
-  "/Users/mac/Documents/Projects/file-recovery/main.cpp" "CMakeFiles/file_recovery.dir/main.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/main.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/carver.cpp" "CMakeFiles/file_recovery.dir/carver.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/carver.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/fat_undelete.cpp" "CMakeFiles/file_recovery.dir/fat_undelete.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/fat_undelete.cpp.o.d"
+  "/Users/mac/Documents/Projects/file-req/file-recovery/main.cpp" "CMakeFiles/file_recovery.dir/main.cpp.o" "gcc" "CMakeFiles/file_recovery.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -24,6 +24,7 @@ private slots:
     void onBrowseOutput();
     void onModeChanged(int index);
     void onRun();
+    void onShowGuide();
     void onProcessOutput();
     void onProcessFinished(int exitCode, QProcess::ExitStatus status);
 

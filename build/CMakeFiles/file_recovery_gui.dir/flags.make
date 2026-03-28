@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/mac/Documents/Projects/file-recovery/gui -isystem /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers
+CXX_INCLUDES = -I/Users/mac/Documents/Projects/file-req/file-recovery/gui -isystem /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers
 
-CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
+CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++20 -arch arm64
 
-CXX_FLAGS = -std=gnu++20 -arch arm64
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64
 

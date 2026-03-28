@@ -1,5 +1,5 @@
-/Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp: /Users/mac/Documents/Projects/file-recovery/gui/mainwindow.h \
-  /Users/mac/Documents/Projects/file-recovery/build/file_recovery_gui_autogen/moc_predefs.h \
+/Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/DMHXEJ42XS/moc_mainwindow.cpp: /Users/mac/Documents/Projects/file-req/file-recovery/gui/mainwindow.h \
+  /Users/mac/Documents/Projects/file-req/file-recovery/build/file_recovery_gui_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/AvailabilityInternalLegacy.h \
