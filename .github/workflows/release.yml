@@ -153,6 +153,7 @@ jobs:
           ./linuxdeploy.AppImage --appdir AppDir \
             -e build/file_recovery_gui \
             -e build/file_recovery \
+            -i packaging/file-recovery.png \
             -d packaging/file-recovery-gui.desktop \
             --plugin qt
           tar -czf "file-recovery-${{ github.ref_name }}-linux-x64.tar.gz" -C AppDir .

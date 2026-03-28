@@ -2,6 +2,7 @@
 Name=File Recovery
 Comment=Carve files by signature or recover deleted entries on FAT32 images
 Exec=file_recovery_gui
+Icon=file-recovery
 Type=Application
 Categories=Utility;Filesystem;
 Terminal=false
