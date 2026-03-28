@@ -95,6 +95,10 @@ jobs:
         run: |
           APP="build/file_recovery_gui.app"
           "$QT_ROOT_DIR/bin/macdeployqt" "$APP" -verbose=1
+          # Ad-hoc sign the bundle so codesign verification passes. GitHub releases are not
+          # notarized; users may still need to clear quarantine once (see README).
+          codesign --force --deep --sign - --timestamp=none "$APP"
+          codesign --verify --deep "$APP"
           OUT="file-recovery-${{ github.ref_name }}-macos-arm64.zip"
           ditto -c -k --sequesterRsrc --keepParent "$APP" "$OUT"
 

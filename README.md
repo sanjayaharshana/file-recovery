@@ -196,7 +196,23 @@ The release is packaged with **`windeployqt`** using **`--no-compiler-runtime`**
 1. Download **`file-recovery-<version>-macos-arm64.zip`** (built for **Apple Silicon**).
 2. Unzip and open **`file_recovery_gui.app`**, or run the CLI from **`file_recovery_gui.app/Contents/MacOS/file_recovery`**.
 
-If Gatekeeper blocks the app, use **System Settings → Privacy & Security** to allow it, or right-click the app and choose **Open** once.
+#### “file_recovery_gui is damaged and can’t be opened”
+
+That message usually means **Gatekeeper** (and the browser **quarantine** flag) blocked an **unsigned / not notarized** download—not that the zip is corrupt. Apple shows “damaged” for this case.
+
+**Fix (pick one):**
+
+1. **Terminal** — remove quarantine, then open normally:
+
+   ```bash
+   xattr -cr "/path/to/file_recovery_gui.app"
+   ```
+
+2. **Finder** — **Control-click** (right-click) the app → **Open** → confirm **Open** once. Or **System Settings → Privacy & Security** → look for the app and click **Open Anyway** after a failed launch.
+
+If you see **`file_recovery_gui 2`** in the name, Finder renamed a duplicate unzip; use the new app bundle or delete the old one and extract again.
+
+Prebuilt releases are **ad-hoc signed** in CI but are **not** Apple-notarized (that requires a paid Developer ID setup). For a fully silent install you would need to notarize with your own signing certificate.
 
 ### Linux
 
