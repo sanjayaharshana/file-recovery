@@ -1,3 +1,5 @@
+[![Release](https://github.com/sanjayaharshana/file-recovery/actions/workflows/release.yml/badge.svg)](https://github.com/sanjayaharshana/file-recovery/actions/workflows/release.yml)
+
 # file-recovery
 
 CLI and optional **Qt 6** GUI tools to recover data from disk images and files:
